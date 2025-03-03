@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FlyoutPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WinUiHamburgerMenuMisssing.FlyoutMainPage"
+             FlyoutLayoutBehavior="Popover"
+             
+             Title="FlyoutMainPage">
+    <FlyoutPage.Flyout>
+        <ContentPage Title="Flyout">
+            <VerticalStackLayout>
+                <Button Text="Navigate to Page 2" Clicked="Button_OnClicked" />
+            </VerticalStackLayout>
+        </ContentPage>
+    </FlyoutPage.Flyout>
+</FlyoutPage>

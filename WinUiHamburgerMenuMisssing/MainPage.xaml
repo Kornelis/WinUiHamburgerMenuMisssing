@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="MainPage"
+             x:Class="WinUiHamburgerMenuMisssing.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+
+            <Label
+                Text="Use Hamburger Menu to navigate to the Second Page. Microsoft.Maui.Controls is currently 9.0.30. When Microsoft.Maui.Controls gets updated to 9.0.40 the Hamburger Menu Icon disappears after navigation"
+                Style="{StaticResource SubHeadline}"
+                />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
